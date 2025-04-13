@@ -1,6 +1,6 @@
 import React from "react";
-import BooksList from "./Components/BooksList";
-import BooksHeader from "./Components/BooksHeader";
+import BooksList from "./Components/BooksList.jsx";
+import BooksHeader from "./Components/BooksHeader.jsx";
 import "./styles.css";
 
 const App = () => (

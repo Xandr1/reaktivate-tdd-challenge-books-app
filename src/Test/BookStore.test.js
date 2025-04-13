@@ -1,5 +1,5 @@
-import booksStore from "../Store/BooksStore";
-import booksRepository from "../Repository/Books.repository";
+import booksStore from "../Store/BooksStore.js";
+import booksRepository from "../Repository/Books.repository.js";
 
 booksRepository.getBooks = async () => {
   return [

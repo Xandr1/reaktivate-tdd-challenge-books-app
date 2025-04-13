@@ -12,7 +12,7 @@ API swagger: https://tdd.demo.reaktivate.com/api-docs/
 
 2. Open any API endpoint in the browser directly and allow this certificate to be used.
 
-2. Add apiKey value at `config.js`.
+2. Add API_KEY to your `.env` file.
 
 2. `npm install`.
 

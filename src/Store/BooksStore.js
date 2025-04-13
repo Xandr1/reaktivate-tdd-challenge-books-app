@@ -1,5 +1,5 @@
 import { makeAutoObservable, runInAction } from "mobx";
-import booksRepository from "../Repository/Books.repository";
+import booksRepository from "../Repository/Books.repository.js";
 
 class BooksStore {
   books = [];

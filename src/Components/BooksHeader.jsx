@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import booksStore from "../Store/BooksStore";
 import { observer } from "mobx-react";
+import booksStore from "../Store/BooksStore.js";
 
 const BooksHeader = observer(() => {
   const [name, setName] = useState("");
   const [author, setAuthor] = useState("");
 
   React.useEffect(() => {
+    console.log("BooksStore Instance:", booksStore);
+
     booksStore.fetchBooks();
     booksStore.fetchPrivateBooks();
   }, []);
