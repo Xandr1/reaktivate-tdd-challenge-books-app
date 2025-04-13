@@ -1,0 +1,20 @@
+.App {
+  font-family: arial;
+  text-align: center;
+}
+
+body {
+  font-family: arial;
+}
+
+input,
+button {
+  margin: 10px 10px 0 0;
+}
+
+.inactive {
+  cursor: not-allowed;
+  pointer-events: none;
+  border: 2px solid black;
+  border-radius: 3px;
+}
